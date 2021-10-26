@@ -35,10 +35,11 @@ body{
 
   }
  .main {
-    display: grid;
+    display: flex;
     grid-template: repeat(1, 1fr) / repeat(2, 1fr);
     height: 300px;
     margin-top: 100px;
+
   }
 .main .principal {
     display: flex;
@@ -54,7 +55,6 @@ body{
 }
 
 .main .News{
-    background-color: lightseagreen;
     text-align: center;
     margin-left: 150px;
     margin-right: 150px;
@@ -70,7 +70,7 @@ body{
 .Links{
     display: grid;
     grid-template: repeat(1, 1fr) / repeat(3, 1fr);
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 300px;
     margin-right: 300px;
     font-family: 'Roboto Mono', monospace;
@@ -85,4 +85,8 @@ body{
 .link-image{
     text-align: center;
     justify-content: center;
+    height: auto;
+    width: auto;
+
+
 }

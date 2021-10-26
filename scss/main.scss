@@ -1,0 +1,45 @@
+@use "global" as *;
+.container-fluid{
+    background-color: white;
+    img{
+        height: 150px;
+        }
+}
+.links{
+    margin-top: 100px;
+}
+.links-buttons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 300px;
+        img{
+            height: 80px;
+        }
+
+}
+.card{
+
+    img{
+        height: 100px;
+    }
+}
+.card.tittle{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+
+.main{
+
+  
+    .carousel-slide{
+        display: flex;
+        height: 300px;
+
+        align-items: center;
+      
+
+
+    }
+}
