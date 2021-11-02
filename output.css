@@ -1,37 +1,50 @@
-.container-fluid {
-  background-color: white;
+body .navbar {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  list-style-type: none;
+  font-family: "Noto Serif", serif;
+  font-size: 20px;
 }
-.container-fluid img {
-  height: 150px;
+body .container {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20px;
+  margin-top: 50px;
+  margin-right: 50px;
 }
-
-.links {
+body .revisa-tus-productos {
+  margin-top: 50px;
+}
+body .revisa-tus-productos h3 {
+  text-align: center;
+}
+body .revisa-tus-productos .container {
+  display: flex;
+  justify-content: center;
+}
+body .revisa-tus-productos img {
+  height: 500px;
+}
+body .info-cards {
   margin-top: 100px;
 }
-
-.links-buttons {
+body .info-cards .inner {
+  transition: all 500ms ease;
+}
+body .info-cards .inner .hover {
+  scale: 1, 5;
+}
+body .info-cards h5 {
+  color: #176712;
+}
+body .info-cards .btn-primary {
+  background-color: #176712;
+  border: 1px solid #176712;
+}
+body .plants-image {
+  margin-top: 50px;
   display: flex;
-  text-align: center;
   justify-content: center;
-  margin-top: 300px;
-}
-.links-buttons img {
-  height: 80px;
-}
-
-.card img {
-  height: 100px;
-}
-
-.card.tittle {
-  font-size: 24px;
-  font-weight: 400;
-}
-
-.main .carousel-slide {
-  display: flex;
-  height: 300px;
-  align-items: center;
 }
 
 /*# sourceMappingURL=output.css.map */

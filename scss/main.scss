@@ -1,45 +1,59 @@
 @use "global" as *;
-.container-fluid{
-    background-color: white;
-    img{
-        height: 150px;
+
+body{
+
+    .navbar{
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+        list-style-type: none;
+        font-family: 'Noto Serif', serif;
+        font-size: 20px;
+            }
+    .container{
+            font-family: 'Zen Maru Gothic', sans-serif;
+            font-size: 20px;
+            margin-top: 50px;
+            margin-right: 50px;
+            }
+    .revisa-tus-productos{
+        margin-top: 50px;
+        h3{
+            text-align: center;
         }
-}
-.links{
-    margin-top: 100px;
-}
-.links-buttons{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    margin-top: 300px;
-        img{
-            height: 80px;
+        .container{
+            display: flex;
+            justify-content: center;
+        }
+            img{
+                height: 500px;
+
+            }
+        }
+    .info-cards{
+        margin-top: 100px;
+        .inner{
+            transition: all 500ms ease;
+            .hover{
+                scale: (1,5);
+            }
+        }
+        h5{
+            color: #176712
+        }
+        .btn-primary{
+            background-color: #176712;
+            border: 1px solid #176712;
+
+         }
         }
 
-}
-.card{
+    .plants-image{
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+                }
 
-    img{
-        height: 100px;
-    }
-}
-.card.tittle{
-    font-size: 24px;
-    font-weight: 400;
+        
 }
 
-
-.main{
-
-  
-    .carousel-slide{
-        display: flex;
-        height: 300px;
-
-        align-items: center;
-      
-
-
-    }
-}
