@@ -1,3 +1,8 @@
+body .bienvenida, body .definicion-suplemento {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20px;
+}
+
 body .header {
   margin: 0px 25px;
   padding: 0px;
@@ -14,9 +19,7 @@ body .bienvenida {
   margin-top: 250px;
   text-align: justify;
 }
-body .container {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 20px;
+body .definicion-suplemento {
   margin-top: 50px;
   margin-right: 50px;
   text-align: justify;
@@ -39,12 +42,6 @@ body .info-cards {
   margin-top: 100px;
   margin-bottom: 100px;
 }
-body .info-cards .inner {
-  transition: all 500ms ease;
-}
-body .info-cards .inner .hover {
-  scale: 1, 5;
-}
 body .info-cards h5 {
   color: #176712;
 }
@@ -58,4 +55,4 @@ body .plants-image {
   justify-content: center;
 }
 
-/*# sourceMappingURL=output.css.map */
+/*# sourceMappingURL=outpu.css.map */

@@ -2,22 +2,33 @@
 
 body{
 
-    .navbar{
-        margin: 0px;
+    .header{
+        margin: 0px 25px;
         padding: 0px;
         text-align: center;
         list-style-type: none;
-        font-family: 'Noto Serif', serif;
-        font-size: 20px;
+        font-family:'PT Sans', sans-serif;
+        font-size: 22px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+
             }
-    .container{
-            font-family: 'Zen Maru Gothic', sans-serif;
-            font-size: 20px;
-            margin-top: 50px;
-            margin-right: 50px;
+    .bienvenida{
+        @extend %base-container;
+        margin-top: 250px;
+        text-align: justify;
+    }
+    .definicion-suplemento{
+        @extend %base-container;
+        margin-top: 50px;
+        margin-right: 50px;
+        text-align: justify;;
             }
     .revisa-tus-productos{
-        margin-top: 50px;
+        margin-top: 80px;
+        font-family: $font-tittle;
         h3{
             text-align: center;
         }
@@ -32,18 +43,13 @@ body{
         }
     .info-cards{
         margin-top: 100px;
-        .inner{
-            transition: all 500ms ease;
-            .hover{
-                scale: (1,5);
-            }
-        }
+        margin-bottom: 100px;
         h5{
-            color: #176712
+            color: $primary-color;
         }
         .btn-primary{
-            background-color: #176712;
-            border: 1px solid #176712;
+            background-color: $primary-color;
+            border: 1px solid $primary-color;
 
          }
         }

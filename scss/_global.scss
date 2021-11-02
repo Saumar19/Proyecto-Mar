@@ -1,7 +1,14 @@
 //VARIABLES
-$salmon: #FA8072;
+$primary-color: #176712;
+$f-normal: 20px;
+
 
 //FUENTES
 $font-tittle: 'Zen Maru Gothic', sans-serif;
 
 //CONTAINER
+%base-container{
+    font-family: $font-tittle;
+    font-size: $f-normal;
+
+}
