@@ -1,0 +1,42 @@
+@use "global" as *;
+
+body{
+
+    .header{
+        margin: 0px 25px;
+        padding: 0px;
+        text-align: center;
+        list-style-type: none;
+        font-family:'PT Sans', sans-serif;
+        font-size: 22px;
+        position: fixed;
+        top: 0px;
+        right: 0px;
+        left: 0px;
+            }
+
+        .publicidad-engañosa{
+            h2{
+                margin-bottom: 50px;
+            }
+            @extend %base-container;
+            margin-top: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            align-content: center;
+            font-family: $font-tittle;
+            .carousel-inner{
+                max-height: 350px;
+            }
+        }
+
+        .container{
+            .row{
+                display: flex;
+                align-content: center;
+                
+            }
+        }
+
+}

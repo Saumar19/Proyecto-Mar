@@ -1,0 +1,38 @@
+@charset "UTF-8";
+body .publicidad-engañosa {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20px;
+}
+
+body .header {
+  margin: 0px 25px;
+  padding: 0px;
+  text-align: center;
+  list-style-type: none;
+  font-family: "PT Sans", sans-serif;
+  font-size: 22px;
+  position: fixed;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+}
+body .publicidad-engañosa {
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  font-family: "Zen Maru Gothic", sans-serif;
+}
+body .publicidad-engañosa h2 {
+  margin-bottom: 50px;
+}
+body .publicidad-engañosa .carousel-inner {
+  max-height: 350px;
+}
+body .container .row {
+  display: flex;
+  align-content: center;
+}
+
+/*# sourceMappingURL=identifica-un-producto-milagro.css.map */

@@ -1,5 +1,12 @@
-body .header {
+body .greeting, body .suplement-definition {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-size: 20px;
+}
+
+body {
   margin: 0px 25px;
+}
+body .header {
   padding: 0px;
   text-align: center;
   list-style-type: none;
@@ -10,40 +17,38 @@ body .header {
   right: 0px;
   left: 0px;
 }
-body .bienvenida {
+body .greeting {
   margin-top: 250px;
   text-align: justify;
 }
-body .container {
-  font-family: "Zen Maru Gothic", sans-serif;
-  font-size: 20px;
+body .greeting > * img {
+  border-radius: 8px;
+}
+body .suplement-definition {
   margin-top: 50px;
   margin-right: 50px;
   text-align: justify;
 }
-body .revisa-tus-productos {
+body .suplement-definition > * img {
+  border-radius: 8px;
+}
+body .check-products {
   margin-top: 80px;
   font-family: "Zen Maru Gothic", sans-serif;
 }
-body .revisa-tus-productos h3 {
+body .check-products h3 {
   text-align: center;
 }
-body .revisa-tus-productos .container {
+body .check-products .container {
   display: flex;
   justify-content: center;
 }
-body .revisa-tus-productos img {
+body .check-products img {
   height: 500px;
 }
 body .info-cards {
   margin-top: 100px;
   margin-bottom: 100px;
-}
-body .info-cards .inner {
-  transition: all 500ms ease;
-}
-body .info-cards .inner .hover {
-  scale: 1, 5;
 }
 body .info-cards h5 {
   color: #176712;
