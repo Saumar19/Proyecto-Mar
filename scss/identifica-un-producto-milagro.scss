@@ -1,7 +1,7 @@
 @use "global" as *;
 
 body{
-
+    margin: 0px 25px;
     .header{
         margin: 0px 25px;
         padding: 0px;
@@ -14,28 +14,48 @@ body{
         right: 0px;
         left: 0px;
             }
-
-        .publicidad-engañosa{
-            h2{
-                margin-bottom: 50px;
-            }
-            @extend %base-container;
+        .commercial{
             margin-top: 150px;
+            margin-bottom: 50px;
             display: flex;
             flex-direction: column;
             align-items: center;
             align-content: center;
             font-family: $font-tittle;
+            .carousel{
+                margin-bottom: 75px;
+            }
+
+            h1{
+                margin-bottom: 50px;
+                color: $primary-color;
+            }
+            p{
+                @extend %base-container;
+            }
+        
             .carousel-inner{
                 max-height: 350px;
             }
         }
-
         .container{
             .row{
                 display: flex;
                 align-content: center;
-                
+                & > *img{
+                    width: 100px;
+                }
+                & > * .col-md-4{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+
+        .anatomy{
+            .img{
+                width: 500px
             }
         }
 
